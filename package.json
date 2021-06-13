@@ -1,7 +1,7 @@
 {
-    "name": "template-node-js-project",
+    "name": "@vidhill/package-json-editor",
     "version": "1.0.0",
-    "description": "Template simple node.js application",
+    "description": "Edit important fields in package.json, useful when using Github templates",
     "main": "index.js",
     "scripts": {
         "test": "jest",
@@ -16,14 +16,17 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/vidhill/template-node-js-project.git"
+        "url": "git+https://github.com/vidhill/package-json-editor.git"
     },
+    "keywords": [
+        "cli"
+    ],
     "author": "David Hill",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/vidhill/template-node-js-project/issues"
+        "url": "https://github.com/vidhill/package-json-editor/issues"
     },
-    "homepage": "https://github.com/vidhill/template-node-js-project#readme",
+    "homepage": "https://github.com/vidhill/package-json-editor#readme",
     "devDependencies": {
         "eslint": "^7.28.0",
         "eslint-config-prettier": "^8.3.0",
