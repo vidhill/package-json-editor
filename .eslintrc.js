@@ -20,6 +20,7 @@ module.exports = {
             },
         ],
         'unicorn/no-abusive-eslint-disable': 'error',
+        'no-useless-rename': 'error',
     },
     overrides: [
         {
