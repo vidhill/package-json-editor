@@ -4,8 +4,8 @@ module.exports = {
         es2021: true,
         node: true,
     },
-    plugins: ['prettier', 'unicorn'],
-    extends: 'eslint:recommended',
+    plugins: ['prettier', 'import', 'unicorn'],
+    extends: ['eslint:recommended', 'plugin:node/recommended'],
     parserOptions: {
         ecmaVersion: 12,
     },
@@ -20,7 +20,14 @@ module.exports = {
             },
         ],
         'unicorn/no-abusive-eslint-disable': 'error',
+        'unicorn/explicit-length-check': 'error',
         'no-useless-rename': 'error',
+        'import/no-cycle': 'error',
+        'import/order': ['error', {}],
+        'import/newline-after-import': 'error',
+        'import/group-exports': 'error',
+        'node/prefer-promises/fs': 'error',
+        'node/exports-style': ['error', 'module.exports'],
     },
     overrides: [
         {
