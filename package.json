@@ -1,29 +1,35 @@
 {
-    "name": "template-node-js-project",
-    "version": "1.0.0",
-    "description": "Template simple node.js application",
-    "main": "index.js",
+    "name": "@vidhill/package-json-editor",
+    "version": "1.0.0-alpha.0",
+    "description": "Edit important fields in package.json, useful when using Github templates",
+    "main": "./lib/index.js",
+    "bin": "cli.js",
     "scripts": {
         "test": "jest",
         "test:watch": "jest --watch",
         "lint": "npm-run-all --parallel lint:*",
+        "lint-fix": "npm-run-all --parallel fix:*",
         "lint:js": "eslint 'lib/**/*.js'",
         "fix:js": "npm run lint:js -- --fix",
         "lint-md": "prettier  \"**/*.md\"",
+        "lint:md": "npm run lint-md -- --check",
         "fix:md": "npm run lint-md -- --write",
         "pre-push": "npm-run-all lint test",
         "prepare": "husky install"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/vidhill/template-node-js-project.git"
+        "url": "git+https://github.com/vidhill/package-json-editor.git"
     },
+    "keywords": [
+        "cli"
+    ],
     "author": "David Hill",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/vidhill/template-node-js-project/issues"
+        "url": "https://github.com/vidhill/package-json-editor/issues"
     },
-    "homepage": "https://github.com/vidhill/template-node-js-project#readme",
+    "homepage": "https://github.com/vidhill/package-json-editor#readme",
     "devDependencies": {
         "eslint": "^7.28.0",
         "eslint-config-prettier": "^8.3.0",
@@ -38,5 +44,9 @@
         "npm-run-all": "^4.1.5",
         "prettier": "^2.3.1",
         "rimraf": "^3.0.2"
+    },
+    "dependencies": {
+        "inquirer": "^8.1.1",
+        "semver": "^7.3.5"
     }
 }
