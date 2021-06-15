@@ -16,10 +16,13 @@ jobs:
           command: npm run lint
       - run:
           name: Run tests
-          command: npm test
+          command: npm run test:ci
       # persist code coverage report
       - store_artifacts:
           path: coverage
+      # persist test report
+      - store_test_results:
+          path: junit.xml
 
 
 workflows:
