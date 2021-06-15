@@ -20,6 +20,8 @@ module.exports = {
             },
         ],
         'unicorn/no-abusive-eslint-disable': 'error',
+        'unicorn/explicit-length-check': 'error',
+        'no-useless-rename': 'error',
     },
     overrides: [
         {
