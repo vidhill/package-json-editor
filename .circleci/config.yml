@@ -22,7 +22,7 @@ jobs:
           path: coverage
       # persist test report
       - store_test_results:
-          path: junit.xml
+          path: jest-report
 
 
 workflows:
