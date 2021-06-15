@@ -2,7 +2,8 @@
     "name": "@vidhill/package-json-editor",
     "version": "1.0.0",
     "description": "Edit important fields in package.json, useful when using Github templates",
-    "main": "index.js",
+    "main": "./lib/index.js",
+    "bin": "cli.js",
     "scripts": {
         "test": "jest",
         "test:watch": "jest --watch",
