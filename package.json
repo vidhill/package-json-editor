@@ -1,6 +1,6 @@
 {
     "name": "@vidhill/package-json-editor",
-    "version": "1.0.0-alpha.1",
+    "version": "1.0.0-alpha.2",
     "description": "Edit important fields in package.json, useful when using Github templates",
     "main": "./lib/index.js",
     "bin": "cli.js",
