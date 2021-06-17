@@ -16,7 +16,9 @@
         "lint:md": "npm run lint-md -- --check",
         "fix:md": "npm run lint-md -- --write",
         "pre-push": "npm-run-all lint test",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "prepublish": "npm run pre-push",
+        "release": "np"
     },
     "repository": {
         "type": "git",
