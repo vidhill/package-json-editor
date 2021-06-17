@@ -1,8 +1,10 @@
 .eslintrc.js
+.circleci
 .husky/
 .prettierrc.json
 babel.config.json
 jest-config/
+jest-report/
 jest.config.js
 coverage/
 **/*.spec.js
