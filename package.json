@@ -54,5 +54,8 @@
     "jest-junit": {
         "outputDirectory": "jest-report",
         "outputName": "junit.xml"
+    },
+    "engines": {
+        "node": ">=11.14.0"
     }
 }
