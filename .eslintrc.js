@@ -23,7 +23,12 @@ module.exports = {
         'unicorn/explicit-length-check': 'error',
         'no-useless-rename': 'error',
         'import/no-cycle': 'error',
-        'import/order': ['error', {}],
+        'import/order': [
+            'error',
+            {
+                'newlines-between': 'always',
+            },
+        ],
         'import/newline-after-import': 'error',
         'import/group-exports': 'error',
         'node/prefer-promises/fs': 'error',
