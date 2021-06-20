@@ -1,0 +1,9 @@
+[core]
+        filemode = true
+        bare = false
+        logallrefupdates = true
+        ignorecase = true
+        precomposeunicode = true
+[remote "origin"]
+        url = git@github.com:vidhill/package-json-editor.git
+        fetch = +refs/heads/*:refs/remotes/origin/*
