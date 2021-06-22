@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/vidhill/package-json-editor/tree/main.svg?style=svg)](https://circleci.com/gh/vidhill/package-json-editor/tree/main)
 
-![NPM Version](https://img.shields.io/npm/v/@vidhill/package-json-editor?style=flat-square)
+[![NPM Version](https://img.shields.io/npm/v/@vidhill/package-json-editor?style=flat-square)](https://www.npmjs.com/package/@vidhill/package-json-editor)
 
 Use case:
 When using Github's [template repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-template-repository) feature for JS projects
