@@ -13,7 +13,7 @@ This package is intended to be run as a cli tool via `npx`
 
 ## Usage
 
-From within the folder containing your `package.json` run  
+From within the folder containing your `package.json` rum
 
 ```bash
 $ npx @vidhill/package-json-editor
