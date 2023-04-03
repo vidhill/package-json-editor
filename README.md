@@ -30,7 +30,7 @@ You will be prompted to answer a number of questions, similar to those when runn
 $ npm install -g @vidhill/package-json-editor
 ```
 
-From within the folder containing your `package.json` run
+From within the folder containing your `package.json` run:
 
 ```bash
 $ package-json-editor
